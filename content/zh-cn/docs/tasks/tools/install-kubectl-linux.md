@@ -157,7 +157,7 @@ Or use this for detailed view of version:
 4. 执行测试，以保障你安装的版本是最新的：
 
    ```bash
-   kubectl version --client
+   kubectl version --output=json
    ```
    
    或者使用如下命令来查看版本的详细信息：
